@@ -1,0 +1,14 @@
+diff a/test.html b/test.html	(rejected hunks)
+@@ -44,7 +44,10 @@
+ 
+         // branch
+         // terminal에서 git branch name: 가지 생성
+-        // branch: A
++        // branch: master
++        // checkout B >> branch B로 이동
++        // sourceTree에서 더블클릭해서도 이동가능
++
+     </script>
+ </body>
+ </html>
+\ No newline at end of file
