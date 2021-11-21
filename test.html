@@ -34,7 +34,13 @@
         //    terminal에 입력줄 안 뜨고 "(END)"일 때: { ;+Q }로 vi에디터 빠져나오기
         // 2) sourceTree는 History에서 history확인
 
-        // 되돌리기 reset
+        // 되돌리기 reset: 돌아갈 시점 찾기
+        // terminal에서 git reset c32f18 --hard => "c32f18으로" 돌아감
+        // sourceTree History에서 commit오른클릭, 이 커밋까지 현재 branch를 초기화(hard)
+
+        // 되돌리기 revert: 취소할 시점 찾기 =>변화를 상쇄함
+        // terminal에서 git revert 000000, :wq(그대로 저장하는 vi명령어)
+        // sourceTree History에서 commit오른클릭, 커밋 되돌리기
     </script>
 </body>
 </html>
