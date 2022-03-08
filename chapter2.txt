@@ -1,1 +1,1 @@
-text2ss gitgitgit difference
+git CLI test test
